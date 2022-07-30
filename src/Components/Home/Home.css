@@ -1,0 +1,16 @@
+.Home{
+    @apply w-full h-screen bg-[#0a192f] flex  items-center;
+}
+.home__container{
+    @apply max-w-[1000px] mx-auto px-8;
+}
+.name{
+    @apply text-4xl sm:text-7xl font-bold text-[#ccd6f6];
+}
+.description{
+    @apply text-3xl sm:text-5xl font-bold text-[#8892b0] my-2;
+}
+.button{
+    @apply py-2 my-2 border-2 flex items-center gap-4 px-6 hover:bg-pink-700 hover:border-pink-700;
+
+}

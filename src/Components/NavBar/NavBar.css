@@ -1,6 +1,9 @@
 .Nav{
     @apply fixed w-full bg-[#0a192f] h-[60px] flex justify-between p-4 items-center  text-gray-300;
 }
+.logo{
+    @apply text-pink-700 italic font-[700];
+}
 ul li{
     @apply px-4;
 }
@@ -9,4 +12,7 @@ li{
 }
 .mobile__menu{
     @apply absolute bg-[#0a192f] top-0 left-0 bottom-0 right-0 w-screen flex items-center flex-col h-screen justify-center;
+}
+.social__icon{
+    @apply  fixed top-[30%] left-0;
 }
