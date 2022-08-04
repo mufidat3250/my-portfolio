@@ -16,10 +16,11 @@ const About = () => {
           </div>
           <div className="">
             {" "}
-            I am swift <strong>front end</strong> developer who is passionate
-            about solving problems in due time and also exploring new
-            technologies. what would you do if you have a software expert
-            available at your fingertips{" "}
+            Seasoned and versatile Frontend software engineer with one year plus
+            experience, developing, and managing apps and internal frameworks.
+            Specializes in ReactJS, Typescript, Next Js and responsive design. An
+            enthusiastic team player and deep creative thinker. I read and enjoy
+            time with friends in my free time.
           </div>
         </div>
       </div>
