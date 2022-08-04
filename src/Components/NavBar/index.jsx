@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import { FaBars, FaTimes, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { AiFillGithub,  } from "react-icons/ai";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -12,18 +13,17 @@ const NavBar = () => {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
+      link: "https://www.linkedin.com/in/wahab-mufidat-32a22b215/",
     },
     {
-      name: "FaceBook",
-      icon: FaFacebook,
+      name: "Twitter",
+      icon: FaTwitter,
+      link: "http://twitter.com/miss__nice",
     },
     {
-      name: "Gmail",
-      icon: HiOutlineMail,
-    },
-    {
-      name: "Contact",
-      icon: BsFillPersonLinesFill,
+      name: "Github",
+      icon: AiFillGithub,
+      link: "https://github.com/mufidat3250",
     },
   ];
 
@@ -86,16 +86,16 @@ const NavBar = () => {
         <ul>
           {socialLinks.map(({ name, icon: Icon }, index) => (
             <li
-              className="flex w-[160px] h-[50px] ml-[-100px] hover:ml-[-10px] duration-300"
+              className="flex w-[160px] h-[50px] ml-[-100px] hover:ml-[-20px] duration-300"
               key={index}
             >
               <a
                 href=""
                 className={` ${
                   (index === 0 && "bg-blue-600") ||
-                  (index === 1 && "bg-gray-600") ||
-                  (index === 2 && "bg-red-300") ||
-                  (index === 3 && "bg-gray-700")
+                  (index === 1 && "bg-gray-700") ||
+                  (index === 2 && "bg-pink-600") ||
+                  (index === 3 && "bg-green-600")
                 } flex items-center justify-between   w-full text-base font-[600] px-2 text-gray-300 `}
               >
                 <p>{name}</p> <Icon size={30} />

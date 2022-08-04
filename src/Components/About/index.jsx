@@ -16,11 +16,9 @@ const About = () => {
           </div>
           <div className="">
             {" "}
-            I am passionate about building excellent software that improves the
-            lives of those around me. I specilalise in createing software for
-            clients ranging from individuals and small-bussinesses all the way
-            to large enterpise corporations. what would you do if you have a
-            software expaert available at your fingertips{" "}
+            I am swift front end developer who is passionate about solving
+            problems in due time and also exploring new technologies. what would
+            you do if you have a software expert available at your fingertips{" "}
           </div>
         </div>
       </div>

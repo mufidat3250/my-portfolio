@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Work from "./Components/Work";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +17,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Work/>
+      <Work />
       <Contact />
     </div>
   );

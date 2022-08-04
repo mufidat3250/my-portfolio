@@ -12,5 +12,5 @@
     @apply py-4 text-lg; 
 }
 .input, textarea{
-    @apply outline-none w-full p-2 border bg-[#ccd6f6];
+    @apply outline-none w-full p-2 border bg-[#ccd6f6] text-black;
 }

@@ -20,7 +20,7 @@ const Contact = () => {
             id=""
             cols="30"
             rows="10"
-            className="w-full"
+            className="w-full text-black p-2"
           ></textarea>
           <button className="py-3 px-6 border-2 border-white font-bold hover:bg-pink-700 hover:border-pink-700">
             Let's Colaborate
