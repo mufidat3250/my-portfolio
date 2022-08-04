@@ -16,9 +16,10 @@ const About = () => {
           </div>
           <div className="">
             {" "}
-            I am swift front end developer who is passionate about solving
-            problems in due time and also exploring new technologies. what would
-            you do if you have a software expert available at your fingertips{" "}
+            I am swift <strong>front end</strong> developer who is passionate
+            about solving problems in due time and also exploring new
+            technologies. what would you do if you have a software expert
+            available at your fingertips{" "}
           </div>
         </div>
       </div>

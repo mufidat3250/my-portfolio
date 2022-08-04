@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import { AiFillGithub,  } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -84,13 +84,13 @@ const NavBar = () => {
       {/* social icon */}
       <div className="hidden lg:fixed top-[35%] left-[0] lg:block">
         <ul>
-          {socialLinks.map(({ name, icon: Icon }, index) => (
+          {socialLinks.map(({ name, link, icon: Icon }, index) => (
             <li
               className="flex w-[160px] h-[50px] ml-[-100px] hover:ml-[-20px] duration-300"
               key={index}
             >
               <a
-                href=""
+                href={link}
                 className={` ${
                   (index === 0 && "bg-blue-600") ||
                   (index === 1 && "bg-gray-700") ||
