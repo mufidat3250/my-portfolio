@@ -16,12 +16,12 @@ const Skills = () => {
         </div>
         <div className="technologys">
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4  flex items-center  flex-col justify-center">
-            <img src="/public/images/css.png" alt="" className="w-20 mx-auto" />
+            <img src="/images/css.png" alt="" className="w-20 mx-auto" />
             <p className="text-center mt-2">CSS</p>
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4 flex flex-col items-center  justify-center ">
             <img
-              src="/public/images/javascript.png"
+              src="/images/javascript.png"
               alt=""
               className="w-20 mx-auto"
             />
@@ -29,7 +29,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4  ">
             <img
-              src="/public/images/tailwind.png"
+              src="/images/tailwind.png"
               alt=""
               className="w-20 mx-auto"
             />
@@ -37,7 +37,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4 flex items-center flex-col justify-center">
             <img
-              src="/public/images/tslogo.png"
+              src="/images/tslogo.png"
               alt=""
               className="w-20 mx-auto"
             />
@@ -53,7 +53,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4  flex items-center flex-col justify-center">
             <img
-              src="/public/images/nextjs.png"
+              src="/images/nextjs.png"
               alt=""
               className="w-20 mx-auto"
             />
@@ -61,7 +61,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4 flex items-center justify-center flex-col">
             <img
-              src="/public/images/react-redux.png"
+              src="/images/react-redux.png"
               alt=""
               className="w-20 mx-auto"
             />
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4 flex items-center flex-col  justify-center">
             <img
-              src="/public/images/netlify_light.png"
+              src="/images/netlify_light.png"
               alt=""
               className="w-20 mx-auto"
             />
