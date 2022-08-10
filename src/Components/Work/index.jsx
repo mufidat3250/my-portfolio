@@ -36,12 +36,15 @@ const Work = () => {
                 selected to deliver safe, consistent dollar returns over time.
               </p>
               <div className="pt-4 text-center">
-                <a href="https://risevest-clone.vercel.app/">
+                <a href="https://risevest-clone.vercel.app/" target={"_blank"}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mufidat3250/risevest-clone">
+                <a
+                  href="https://github.com/mufidat3250/risevest-clone"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -71,12 +74,18 @@ const Work = () => {
                 TheMoviesDatabase(TMDB)
               </p>
               <div className="pt-4 text-center">
-                <a href="https://hulu-cloned-swart.vercel.app/">
+                <a
+                  href="https://hulu-cloned-swart.vercel.app/"
+                  target={"_blank"}
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mufidat3250/hulu-cloned">
+                <a
+                  href="https://github.com/mufidat3250/hulu-cloned"
+                  target={"_blank"}
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -105,12 +114,18 @@ const Work = () => {
                 genries etc
               </p>
               <div className="pt-4 text-center">
-                <a href="">
+                <a
+                  href="https://react-grapgql-test-mufidat3250.vercel.app/"
+                  target={"_blank"}
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mufidat3250/Helicarrier-React-graphql-test">
+                <a
+                  href="https://github.com/mufidat3250/Helicarrier-React-graphql-test"
+                  target={"_blank"}
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

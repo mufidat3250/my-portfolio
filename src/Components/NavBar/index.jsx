@@ -97,6 +97,7 @@ const NavBar = () => {
                   (index === 2 && "bg-pink-600") ||
                   (index === 3 && "bg-green-600")
                 } flex items-center justify-between   w-full text-base font-[600] px-2 text-gray-300 `}
+                target="_blank"
               >
                 <p>{name}</p> <Icon size={30} />
               </a>

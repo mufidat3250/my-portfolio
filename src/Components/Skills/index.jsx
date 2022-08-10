@@ -45,7 +45,7 @@ const Skills = () => {
           </div>
           <div className="shadow-sm shadow-[#040c16] hover:scale-110 duration-300 py-4  flex items-center flex-col justify-center">
             <img
-              src="/public/images/react.png"
+              src="/images/react.png"
               alt=""
               className="w-20 mx-auto"
             />
