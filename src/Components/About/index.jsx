@@ -12,15 +12,18 @@ const About = () => {
         </div>
         <div className="description_">
           <div className=" flex justify-center items-center  text-left sm:text-right text-2xl font-bold">
-            <p>Hi, I'm Mufidah nice to meet you Please take a look around</p>
+            <p>
+              {" "}
+              Hi, I'm Mufidah a Frontend software engineer experienced in
+              developing, and managing apps and internal frameworks. It is nice
+              to meet you.
+            </p>
           </div>
           <div className="">
             {" "}
-            Seasoned and versatile Frontend software engineer with one year plus
-            experience, developing, and managing apps and internal frameworks.
-            Specializes in ReactJS, Typescript, Next Js and responsive design. An
-            enthusiastic team player and deep creative thinker. I read and enjoy
-            time with friends in my free time.
+            I specialize in ReactJS, Typescript, Next Js and responsive design.
+            I am an enthusiastic team player and deep creative thinker. In my
+            free time, I read and enjoy time with friends too.
           </div>
         </div>
       </div>
