@@ -1,15 +1,15 @@
-.About{
-    @apply w-full h-screen bg-[#0a192f] text-gray-300; 
+.About {
+  @apply w-full md:h-screen bg-[#0a192f] text-gray-300;
 }
-.about__container{
-    @apply flex flex-col justify-center items-center w-full h-full;
+.about__container {
+  @apply flex flex-col justify-center items-center w-full h-full;
 }
-.title__wrapper{
-    @apply grid grid-cols-2 w-full max-w-[1000px] gap-8; 
+.title__wrapper {
+  @apply grid grid-cols-2 w-full max-w-[1000px] gap-8;
 }
-.title{
-    @apply font-[500] text-4xl border-b-4 border-pink-700 w-fit;
+.title {
+  @apply font-[500] text-4xl border-b-4 border-pink-700 w-fit;
 }
-.description_{
-    @apply grid px-4 sm:grid-cols-2 w-full max-w-[1000px] gap-8 
+.description_ {
+  @apply grid px-4 sm:grid-cols-2 w-full max-w-[1000px] gap-8;
 }

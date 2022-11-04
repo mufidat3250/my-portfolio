@@ -1,16 +1,16 @@
-.Contact{
-    @apply h-screen w-full bg-[#0a192f] text-gray-300 justify-center items-center p-4;
+.Contact {
+  @apply pt-[50rem] md:pt-[20rem] lg:pt-0 md:h-screen bg-[#0a192f] w-full  text-gray-300 justify-center items-center p-4 mb-[5rem];
 }
-.contact__container{
-    @apply flex w-full h-full max-w-[600px] flex-col mx-auto justify-center;
+.contact__container {
+  @apply flex w-full h-full max-w-[600px] flex-col mx-auto justify-center;
 }
-.contact{
-    @apply text-4xl border-b-[4px] border-b-pink-700 w-fit;
-
+.contact {
+  @apply text-4xl border-b-[4px] border-b-pink-700 w-fit;
 }
-.contact__description{
-    @apply py-4 text-lg; 
+.contact__description {
+  @apply py-4 text-lg;
 }
-.input, textarea{
-    @apply outline-none w-full p-2 border bg-[#ccd6f6] text-black;
+.input,
+textarea {
+  @apply outline-none w-full p-2 border bg-[#ccd6f6] text-black;
 }

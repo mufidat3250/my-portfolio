@@ -3,9 +3,11 @@ import "./Work.css";
 import animies from "/images/animies2.png";
 import huluclone from "/images/huluclone.png";
 import risevest from "/images/risevest.png";
+import lawparlance from "/images/lawparlance.png";
+import finburse from "/public/images/finburse.jpeg";
 const Work = () => {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <div className="work__container">
         <div>
           <p className="title">Work</p>
@@ -126,6 +128,74 @@ const Work = () => {
                   href="https://github.com/mufidat3250/Helicarrier-React-graphql-test"
                   target={"_blank"}
                 >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${lawparlance})`,
+              height: "250px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className={` bg-contain bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content_div cursor-pointer`}
+          >
+            {/* hover effect */}
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col items-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                {" "}
+                Law parlance
+              </span>
+              <p className="text-[12px] max-w-[70%] text-center mt-4">
+                Law parlance provides you with over 150k law resources, Quran,
+                the book of hadith, tafsir, books of inheritance and more to aid
+                your legal research and references.
+              </p>
+              <div className="pt-4 text-center">
+                <a href="https://www.lawparlance.com/" target={"_blank"}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a target={"_blank"}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${finburse})`,
+              height: "250px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className={` bg-contain bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content_div cursor-pointer`}
+          >
+            {/* hover effect */}
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col items-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                {" "}
+                FINBURSE GLOBAL
+              </span>
+              <p className="text-[12px] max-w-[70%] text-center mt-4">
+                Law parlance provides you with over 150k law resources, Quran,
+                the book of hadith, tafsir, books of inheritance and more to aid
+                your legal research and references.
+              </p>
+              <div className="pt-4 text-center">
+                <a href="https://www.lawparlance.com/" target={"_blank"}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a target={"_blank"}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
